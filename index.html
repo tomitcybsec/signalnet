@@ -168,10 +168,27 @@
       outline: none;
     }
 
-    .btn-primary { background: var(--primary); color: #fff; }
-    .btn-primary:hover, .btn-primary:focus-visible { background: var(--primary-dark); }
-    .btn-secondary { background: #fff; color: var(--text); border-color: var(--line); }
-    .btn-secondary:hover, .btn-secondary:focus-visible { background: #f8fbff; }
+    .btn-primary {
+      background: linear-gradient(135deg, #7b3ff2 0%, #5b21b6 100%);
+      color: #ffffff;
+      border: none;
+    }
+    .btn-primary:hover,
+    .btn-primary:focus-visible {
+      background: linear-gradient(135deg, #6d28d9 0%, #4c1d95 100%);
+      color: #ffffff;
+    }
+    .btn-secondary {
+      background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+      color: #1f2937;
+      border: none;
+      font-weight: 850;
+    }
+    .btn-secondary:hover,
+    .btn-secondary:focus-visible {
+      background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+      color: #111827;
+    }
 
     .hero { padding: 5.5rem 0 3rem; }
 
@@ -925,8 +942,7 @@
           <span class="kicker">Avant / après</span>
           <h2>Un espace prévu pour vos futurs exemples clients</h2>
           <p>
-            Pour l'instant, on ne triche pas : pas de faux témoignages, pas de faux résultats.
-            Cette section sert d'exemple de diagnostic, en attendant de vrais cas clients.
+            Cette section sert d'exemple de diagnostic et permettra plus tard de présenter de vrais cas clients et des améliorations concrètes.
           </p>
         </div>
 
